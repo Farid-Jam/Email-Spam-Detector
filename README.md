@@ -20,14 +20,6 @@ Pr(S|F) = 1 / (1 + e^η)
 
 ![Spam Detector Screenshot](images/Screenshot.png)
 
-## Improvements
-- **Adjusted Spam Threshold:** The spam probability threshold for classification was adjusted from 0.5 to 0.6 to reduce false positives.
-- **Improved Stop-word Removal:** Commonly used English words (e.g., "the," "is," "and") are removed to improve classification accuracy.
-- **Case Insensitivity:** Converted all words to lowercase for uniformity.
-- **Color-Coded Classification:** The results table highlights spam emails in red and ham emails in green, making it easier to distinguish between them at a glance.
-- **E-mail Readability:** Implemented a interface that allows users to interact with file names and open emails in a separate window for improved accessibility.
-- **Changed Font:** Updated the UI font to a more visually comfortable and readable typeface, enhancing the overall user experience.
-
 ## How to Run
 ### Prerequisites
 - Java Development Kit (JDK) 17+
