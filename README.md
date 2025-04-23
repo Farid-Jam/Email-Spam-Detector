@@ -1,6 +1,4 @@
 # Spam Detector
-
-## Project Information
 This project implements a Spam Detector using a Naive Bayes classifier trained on a dataset of spam and ham (non-spam) emails. The program analyzes word frequencies to calculate the probability of a message being spam. A graphical user interface (GUI) is provided to load datasets, train the model, and test email classifications.
 Every word in the classification process is counted and linked to either spam or ham messages using a unigram approach. In order to efficiently handle small probability values, the model use logarithmic functions to estimate probabilities based on the words present in each email.
 Users can load datasets, train the model, and categorize new emails using known probabilities utilizing the Graphical User Interface (GUI). In order to assess model performance, the application also computes classification accuracy and precision.
