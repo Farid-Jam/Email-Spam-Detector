@@ -74,3 +74,7 @@ Click "Data" then "Open"
 - Java Swing for GUI development
 - java.util.regex.Pattern for text processing
 - TreeMap for case-insensitive word storage
+
+## Collaborators
+- Abdullah Mustafa
+- Samir Ahmadi
